@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+     <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="libs/css/newcss.css"/>
+        
+         <script src="libs/js/jquery-2.1.4.js"></script>     
+         <script type="text/javascript" src="libs/js/handlebars-v3.0.3.js"></script>
+         <script type="text/javascript" src="newregistration.js"></script>
+         
+        <script id="allgameTemplate" type="text/x-handlebars">
+            <div id="push">
+            <ul>
+              <li>{{gameid}}</li>
+              <li>{{description}}</li>
+            </ul>
+            </div>
+        </script>
+         
+    </head>
+    <body>
+        <div class="header">
+            <img src="libs/images/logo.png"/>
+        </div>
+        <div class="container" id="allgamelist">
+            
+            <button id="retrieve">All Game</button>      
+            
+        </div>
+                    
+    </body>
+</html>
